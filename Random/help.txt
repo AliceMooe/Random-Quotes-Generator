@@ -1,0 +1,5 @@
+API Link : 
+https://api.quotable.io/random
+
+Twitter url:
+https://twitter.com/insent/tweet?url=` add Link `

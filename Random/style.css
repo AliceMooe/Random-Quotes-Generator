@@ -1,0 +1,93 @@
+:root {
+  --text-color: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  background-color: #afaaa4;
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.quotes-div {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.left-quote,
+.right-quote {
+  font-size: 20px;
+}
+.left-quote {
+  margin-right: 8px;
+}
+.right-quote {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 8px;
+}
+.author-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer div i {
+  font-size: 24px;
+  color: #454849bf;
+  margin-right: 18px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.footer div i:hover {
+  color: #000000;
+}
+.btn {
+  background-color: #787e80;
+  color: #000000;
+  padding: 6px 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.load {
+  opacity: 0.4;
+}
